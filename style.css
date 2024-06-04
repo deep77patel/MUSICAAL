@@ -1,0 +1,32 @@
+body
+{
+    background-color: aliceblue;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+nav
+{
+    font-family: 'Ubuntu',sans-serif;
+}
+nav ul
+{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+.brand img
+{
+    width: 78px;
+}
+.brand
+{
+    display: flex;
+    align-items: center;
+}
