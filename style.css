@@ -62,7 +62,7 @@ nav ul
     min-height: 65vh;
     background-color: black;
     color: white;
-font-family: sans-serif;
+font-family: 'Verela Round', sans-serif;
 display: flex;
 width: 70%;
 margin: 23px auto;
@@ -73,6 +73,7 @@ background-image: url("6d5c73bb9c5da8b8a10be20c5daea6d2.jpg");
 #myProgressBar
 {
     width: 80vw;
+    cursor: pointer;
     /* text-align: center; */
 }
 .icon
@@ -93,8 +94,9 @@ border-radius: 34px;
 .songItem img
 {
     width: 40px;
+    height: 40px;
     margin: 0 23px;
-    border-radius: 35px;
+    border-radius: 45px;
 }
 .timestamp
 {
@@ -114,4 +116,12 @@ border-radius: 34px;
     
     position: absolute;
     left: 9.5vw;
+font-family: 'Verela Round', sans-serif;
+
+}
+
+.songinfo img
+{
+    opacity: 0;
+    transition: opacity 1s ease-in;
 }
